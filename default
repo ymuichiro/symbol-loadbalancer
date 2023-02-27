@@ -1,4 +1,5 @@
 upstream myapp1 {
+        ip_hash;
         server wolf.importance.jp:3001;
         server symbol-main-1.nemtus.com:3001;
         server symbol-mikun.net:3001;
